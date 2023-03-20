@@ -19,3 +19,19 @@ O padrão singleton é usando  em casos como:
 ## Singleton MonoState
 
 É uma abordagem sigleton, onde tem instâncias diferentes da classe só que com o mesmo estados, as instâncias compartilham esse estado
+
+## Exercícios práticos com Singleton
+
+Exemplo: 
+
+- [Singleton](/exercicio_pratico\exemplo_01.py)
+- [Singleton MonoState](/exercicio_pratico/singleton_mono_state.py)
+- [Singleton lazy](/exercicio_pratico\singleton_with_lazy.py)
+- [Singleton Metaclass 1](/exercicio_pratico\singleton_with_metaclass.py)
+- [Singleton Metaclass 2](/exercicio_pratico\singleton_with_metaclass2.py)
+
+## Desvantagem de usar Singleton
+
+Variáveis globais podem ser alteradas por engano em algum lugar e poder ser  usadas em outro lugar na aplicação, gerando erros;
+• Variáveis referência podem ser criadas para o mesmo objeto. Como o Singleton cria apenas um objeto, várias referências podem ser criadas neste ponto para o mesmo objeto;
+• Todas as classes que são dependentes de variáveis globais acabam se tornando altamente acopladas, pois uma mudança feita por uma classe no dado global poderá exercer umimpactoem outra classe;
