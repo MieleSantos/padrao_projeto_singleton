@@ -24,11 +24,11 @@ O padrão singleton é usando  em casos como:
 
 Exemplo: 
 
-- [Singleton](/exercicio_pratico\exemplo_01.py)
+- [Singleton](/exercicio_pratico/exemplo_01.py)
 - [Singleton MonoState](/exercicio_pratico/singleton_mono_state.py)
-- [Singleton lazy](/exercicio_pratico\singleton_with_lazy.py)
-- [Singleton Metaclass 1](/exercicio_pratico\singleton_with_metaclass.py)
-- [Singleton Metaclass 2](/exercicio_pratico\singleton_with_metaclass2.py)
+- [Singleton lazy](/exercicio_pratico/singleton_with_lazy.py)
+- [Singleton Metaclass 1](/exercicio_pratico/singleton_with_metaclass.py)
+- [Singleton Metaclass 2](/exercicio_pratico/singleton_with_metaclass2.py)
 
 ## Desvantagem de usar Singleton
 
