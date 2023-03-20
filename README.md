@@ -15,3 +15,7 @@ O padrão singleton é usando  em casos como:
 - operações de bancos de dados
 - spoolers de impressão
 - e muitos outros cenários em que seja necessário que haja apenas uma única instância de determinado objeto disponível para toda a aplicação.
+
+## Singleton MonoState
+
+É uma abordagem sigleton, onde tem instâncias diferentes da classe só que com o mesmo estados, as instâncias compartilham esse estado
